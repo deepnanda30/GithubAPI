@@ -1,0 +1,94 @@
+body{
+  background:url("https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg") ;
+  background: opacity 2;
+  background-size: cover;
+}
+
+
+
+#image {
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:50%;
+    padding-top: 10px;;
+
+}
+
+h1{
+  padding-top: 20px;;
+  text-align: center;
+  color:rgb(10, 230, 145);
+  font-family:  'Playfair Display', serif;
+}
+
+
+h3{
+  padding: 20px;;
+  text-align: center;
+  color:#f1f2bd;
+  font-family: 'Pacifico', cursive;
+}
+.form-container { 
+  background:#1c365e;
+  height: 90vh;
+  padding-top: 100px;
+  padding-left: 50px;
+ 
+}
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #f16051;
+  width: 30%;
+  padding-bottom: 4px;
+  color: orange ;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+input[type="text"] { 
+  outline: none;
+}
+
+::placeholder{
+  color:rgb(238, 238, 139);
+}
+.inp{
+  text-align: center;
+}
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #f16051;
+  color: #fff;
+  font-weight: 100;
+}
+
+button:active {
+  outline: none;
+}
+
+#output{
+  color:orange;
+}
+
+.avatar img{
+    height:150px;
+    display: inline-block;
+    margin-right: auto;
+    border-radius:100%;
+    padding-top: 10px;
+    padding-left: 10px;;
+}
+
+.url a{
+  color:white;
+}
